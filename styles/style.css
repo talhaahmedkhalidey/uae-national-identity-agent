@@ -84,8 +84,10 @@ body {
 }
 .message.bot {
   align-self: flex-start;
-  background: #96a9af;
-  color: #f5f6f7;
+  /* background: #96a9af; */
+  background: #96a9afc8;
+  /* color: #f5f6f7; */
+  color: #2b2b2b;
 }
 
 .input-container {
