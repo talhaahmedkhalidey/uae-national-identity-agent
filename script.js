@@ -3,10 +3,10 @@ const input = document.getElementById("messageInput");
 const sendBtn = document.getElementById("sendBtn");
 
 // 🔍 Arabic detection function
-function isArabic(text) {
-  const arabicRegex = /[\u0600-\u06FF\u0750-\u077F]/;
-  return arabicRegex.test(text);
-}
+// function isArabic(text) {
+//   const arabicRegex = /[\u0600-\u06FF\u0750-\u077F]/;
+//   return arabicRegex.test(text);
+// }
 
 // 🗨️ Add message to chat
 function addMessage(text, sender) {
@@ -14,8 +14,8 @@ function addMessage(text, sender) {
   msg.classList.add("message", sender);
 
   // Direction auto detect
-  const rtl = isArabic(text);
-  msg.setAttribute("dir", rtl ? "rtl" : "ltr");
+  // const rtl = isArabic(text);
+  // msg.setAttribute("dir", rtl ? "rtl" : "ltr");
   msg.textContent = text;
 
   chatContainer.appendChild(msg);
