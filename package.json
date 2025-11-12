@@ -1,0 +1,24 @@
+{
+  "name": "uae-national-identity-agent",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass styles/style.scss styles/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farrukhafaq/uae-national-identity-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farrukhafaq/uae-national-identity-agent/issues"
+  },
+  "homepage": "https://github.com/Farrukhafaq/uae-national-identity-agent#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.94.0"
+  }
+}
